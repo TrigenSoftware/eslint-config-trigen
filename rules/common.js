@@ -5,7 +5,7 @@
 module.exports = {
 	'rules': {
 		// Possible Errors
-		'no-console':                   ['warn', { allow: ['warn', 'error'] }],
+		'no-console':                   ['warn', { 'allow': ['warn', 'error'] }],
 		'no-debugger':                   'warn',
 		'valid-jsdoc':                   'error',
 
@@ -21,23 +21,25 @@ module.exports = {
 		'eqeqeq':                        'off',
 		'no-caller':                     'error',
 		'no-case-declarations':          'error',
+		'no-else-return':                'error',
 		'no-eval':                       'error',
+		'no-extend-native':              'error',
+		'no-extra-bind':                 'error',
 		'no-extra-label':                'error',
 		'no-implicit-coercion':         ['error', { 'allow': ['~'] }],
 		'no-implicit-globals':           'error',
 		'no-implied-eval':               'error',
 		'no-invalid-this':               'off',
 		'no-iterator':                   'error',
+		'no-labels':                    ['error', { 'allowLoop': true, 'allowSwitch': true }],
 		'no-lone-blocks':                'error',
 		'no-loop-func':                  'error',
 		'no-magic-numbers':             ['error', {
 			'ignore':             [-1, 0, 1],
 			'ignoreArrayIndexes': true
 		}],
-		'no-multi-spaces':              ['error', { exceptions: {
-			'ImportDeclaration':  true,
-			'VariableDeclarator': true,
-			'Property':           true
+		'no-multi-spaces':              ['error', { 'exceptions': {
+			'Property': true
 		}}],
 		'no-multi-str':                  'error',
 		'no-native-reassign':            'error',
@@ -52,6 +54,7 @@ module.exports = {
 		'no-self-compare':               'error',
 		'no-sequences':                  'error',
 		'no-throw-literal':              'error',
+		'no-unmodified-loop-condition':  'error',
 		'no-unused-expressions':         'error',
 		'no-useless-call':               'error',
 		'no-useless-concat':             'error',
@@ -77,6 +80,15 @@ module.exports = {
 		'no-new-require':                'error',
 
 		// Stylistic Issues
+		'padding-line-between-statements': [
+			'error',
+			{ blankLine: 'always', prev: 'import', next: '*' },
+			{ blankLine: 'never', prev: 'import', next: 'import' },
+			{ blankLine: 'always', prev: ['const', 'let'], next: '*' },
+			{ blankLine: 'never', prev: ['const', 'let'], next: ['const', 'let'] },
+			{ blankLine: 'always', prev: '*', next: 'block-like' },
+			{ blankLine: 'always', prev: '*', next: 'case' }
+		],
 		'array-bracket-spacing':        ['error', 'never'],
 		'block-spacing':                 'error',
 		'brace-style':                  ['error', '1tbs'],
@@ -87,6 +99,7 @@ module.exports = {
 		'computed-property-spacing':     'error',
 		'consistent-this':              ['error', 'self'],
 		'eol-last':                      'error',
+		'func-call-spacing':             'error',
 		'func-names':                    'error',
 		'func-style':                   ['error', 'declaration', { 'allowArrowFunctions': true }],
 		'indent':                       ['error', 'tab', { 'SwitchCase': 1 }],
@@ -108,20 +121,17 @@ module.exports = {
 		'max-statements-per-line':       'error',
 		'new-cap':                      ['error', { 'capIsNew': false }],
 		'new-parens':                    'error',
-		'newline-after-var':             'error',
-		'newline-before-return':         'off',
 		'newline-per-chained-call':      'off',
 		'no-array-constructor':          'error',
 		'no-lonely-if':                  'error',
 		'no-multiple-empty-lines':      ['error', { 'max': 1 }],
 		'no-new-object':                 'error',
-		'no-spaced-func':                'error',
 		'no-trailing-spaces':            'error',
 		'no-unneeded-ternary':           'error',
 		'no-whitespace-before-property': 'error',
 		'object-curly-spacing':         ['error', 'always'],
 		'one-var-declaration-per-line': ['error', 'initializations'],
-		'one-var':                       'off',
+		'one-var':                      ['error', 'never'],
 		'operator-assignment':          ['error', 'always'],
 		'operator-linebreak':           ['error', 'before', { 'overrides': { '=': 'after' }}],
 		'quote-props':                  ['error', 'consistent'],

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trigen",
-  "version": "2.5.1",
+  "version": "3.0.0",
   "description": "Trigen's ESLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -17,12 +17,12 @@
     "eslintconfig"
   ],
   "dependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-react": "^7.5.1"
+    "babel-eslint": "^8.2.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.8.2"
   },
   "peerDependencies": {
-    "eslint": "^4.10.0"
+    "eslint": "^4.19.1"
   },
   "files": [
     "rules",
