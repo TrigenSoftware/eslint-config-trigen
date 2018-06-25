@@ -70,7 +70,7 @@ module.exports = {
 		'no-label-var':                  'error',
 		'no-shadow-restricted-names':    'error',
 		'no-undef-init':                 'error',
-		'no-undefined':                  'error',
+		'no-undefined':                  'off',
 		'no-use-before-define':         ['error', {
 			'functions': false,
 			'classes':   false
