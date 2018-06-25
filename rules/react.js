@@ -158,6 +158,7 @@ module.exports = {
 		'react/jsx-uses-react':                       'error',
 		'react/jsx-uses-vars':                        'error',
 		'react/jsx-wrap-multilines':                  'error',
-		'react/jsx-props-no-multi-spaces':            'error'
+		'react/jsx-props-no-multi-spaces':            'error',
+		'react/no-unsafe':                            'error'
 	}
 };
