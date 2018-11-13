@@ -15,7 +15,7 @@
 
 Trigen's ESLint config.
 
-# Install
+## Install
 
 ```bash
 npm i -D eslint-config-trigen
@@ -23,7 +23,7 @@ npm i -D eslint-config-trigen
 yarn add -D eslint-config-trigen
 ```
 
-# Configure
+## Configure
 
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `.eslintrc`.
 
