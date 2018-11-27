@@ -28,4 +28,4 @@ yarn add -D eslint-config-trigen
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `.eslintrc`.
 
 ---
-[![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/)
+[![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/) [![Greenkeeper badge](https://badges.greenkeeper.io/TrigenSoftware/eslint-config-trigen.svg)](https://greenkeeper.io/)
