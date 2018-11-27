@@ -3,6 +3,7 @@
 [![NPM version][npm]][npm-url]
 [![Peer dependency status][peer-deps]][peer-deps-url]
 [![Dependency status][deps]][deps-url]
+[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
 
 [npm]: https://img.shields.io/npm/v/eslint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/eslint-config-trigen
@@ -12,6 +13,9 @@
 
 [deps]: https://david-dm.org/TrigenSoftware/eslint-config-trigen.svg
 [deps-url]: https://david-dm.org/TrigenSoftware/eslint-config-trigen
+
+[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/eslint-config-trigen.svg
+[greenkeeper-url]: https://greenkeeper.io/
 
 Trigen's ESLint config.
 
@@ -28,4 +32,4 @@ yarn add -D eslint-config-trigen
 Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `.eslintrc`.
 
 ---
-[![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/) [![Greenkeeper badge](https://badges.greenkeeper.io/TrigenSoftware/eslint-config-trigen.svg)](https://greenkeeper.io/)
+[![NPM](https://nodei.co/npm/eslint-config-trigen.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eslint-config-trigen/)
