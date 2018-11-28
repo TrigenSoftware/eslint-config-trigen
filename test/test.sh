@@ -16,7 +16,7 @@ fi
 
 output=$(eslint invalid.js)
 
-if [[ $? -ne 1 ]]; then
+if [[ $? -eq 0 ]]; then
 	echo 'invalid.js passed checking.'
 	echo "$output"
 	exit 1
