@@ -13,7 +13,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "cd test; ./test.sh"
+    "test": "cd test; ./test.sh",
+    "prepublishOnly": "npm run test"
   },
   "keywords": [
     "eslint",
