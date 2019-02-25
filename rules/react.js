@@ -50,6 +50,11 @@ module.exports = {
 			'jsx': true
 		}
 	},
+	'settings': {
+		'react': {
+			'version': 'detect'
+		}
+	},
 	'rules': {
 		// React
 		'react/boolean-prop-naming':                  'off',
