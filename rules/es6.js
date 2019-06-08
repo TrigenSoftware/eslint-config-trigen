@@ -10,8 +10,8 @@ module.exports = {
 		'es6': true
 	},
 	'parserOptions': {
-		'ecmaVersion': 6,
-		'sourceType': 'module',
+		'ecmaVersion':  6,
+		'sourceType':   'module',
 		'ecmaFeatures': {
 			'objectLiteralDuplicateProperties': false
 		}
@@ -59,7 +59,7 @@ module.exports = {
 		'arrow-parens':                       ['error', 'as-needed', { 'requireForBlockBody': true }],
 		'arrow-spacing':                       'error',
 		'generator-star-spacing':             ['error', { 'before': true, 'after': false }],
-		'no-confusing-arrow':                 ['error', { 'allowParens': true}],
+		'no-confusing-arrow':                 ['error', { 'allowParens': true }],
 		// 'no-duplicate-imports':                'error',
 		'no-useless-computed-key':             'error',
 		'no-useless-constructor':              'error',

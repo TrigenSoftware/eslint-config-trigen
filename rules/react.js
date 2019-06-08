@@ -89,7 +89,7 @@ module.exports = {
 		'react/no-will-update-set-state':             'error',
 		'react/prefer-es6-class':                     'error',
 		'react/prefer-stateless-function':            'error',
-		'react/prop-types':                          ['error', {
+		'react/prop-types':                           ['error', {
 			ignore: ariaAttributes
 		}],
 		'react/react-in-jsx-scope':                   'error',

@@ -1,0 +1,19 @@
+{
+  "generator-trigen-lib": {
+    "editPackage": true,
+    "pkg": {
+      "name": "eslint-config-trigen",
+      "version": "3.2.3",
+      "description": "Trigen's ESLint config",
+      "repository": "https://github.com/TrigenSoftware/eslint-config-trigen",
+      "author": "dangreen"
+    },
+    "type": "config",
+    "lang": "js",
+    "rollup": false,
+    "checkSize": false,
+    "jest": false,
+    "coverage": false,
+    "cleanPublish": true
+  }
+}
