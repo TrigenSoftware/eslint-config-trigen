@@ -8,12 +8,12 @@ module.exports = {
 		'./rules/es6',
 		'./rules/node'
 	].map(require.resolve)),
-	'parser': 'babel-eslint',
+	'parser':        'babel-eslint',
 	'parserOptions': {
-		'ecmaVersion': 6,
-		'sourceType': 'module',
+		'ecmaVersion':  6,
+		'sourceType':   'module',
 		'ecmaFeatures': {
-			'impliedStrict': true,
+			'impliedStrict':                true,
 			'experimentalObjectRestSpread': true
 		}
 	},

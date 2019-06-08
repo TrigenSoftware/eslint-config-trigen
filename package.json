@@ -12,23 +12,30 @@
     "url": "https://github.com/TrigenSoftware/eslint-config-trigen/issues"
   },
   "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "scripts": {
-    "test": "cd test; ./test.sh",
-    "prepublishOnly": "npm run test"
+    "lint": "trigen-scripts lint '**/*.js'",
+    "test": "trigen-scripts test '**/*.js' && (cd test; ./test.sh)",
+    "cleanPublish": "(cd test; ./test.sh) && trigen-scripts cleanPublish"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
+  "peerDependencies": {
+    "eslint": ">=4.0.0"
+  },
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-react": "^7.10.0"
   },
-  "peerDependencies": {
-    "eslint": ">=4.0.0"
-  },
   "devDependencies": {
+    "@trigen/scripts": "2",
+    "@trigen/scripts-plugin-eslint": "2",
+    "@trigen/scripts-preset-lib": "2",
     "eslint": ">=4.0.0"
   },
   "files": [
