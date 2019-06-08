@@ -10,7 +10,7 @@
 [npm]: https://img.shields.io/npm/v/eslint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/eslint-config-trigen
 
-[node]: https://img.shields.io/node/v/${name}.svg
+[node]: https://img.shields.io/node/v/eslint-config-trigen.svg
 [node-url]: https://nodejs.org
 
 [peer-deps]: https://david-dm.org/TrigenSoftware/eslint-config-trigen/peer-status.svg
