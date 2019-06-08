@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trigen",
-  "version": "3.2.3",
+  "version": "3.2.4",
   "description": "Trigen's ESLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -16,8 +16,8 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "lint": "trigen-scripts lint '**/*.js'",
-    "test": "trigen-scripts test '**/*.js' && (cd test; ./test.sh)",
+    "lint": "trigen-scripts lint",
+    "test": "trigen-scripts test && (cd test; ./test.sh)",
     "cleanPublish": "(cd test; ./test.sh) && trigen-scripts cleanPublish"
   },
   "keywords": [

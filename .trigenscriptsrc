@@ -1,4 +1,9 @@
 [
-	"@trigen/scripts-plugin-eslint",
+	[
+		"@trigen/scripts-plugin-eslint",
+		{
+			"lint": "**/*.js"
+		}
+	],
 	"@trigen/scripts-preset-lib"
 ]

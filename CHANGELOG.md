@@ -23,3 +23,7 @@ DO NOT TOUCH. SAVE IT ON TOP.
 - ...
 
 -->
+
+## [3.2.4] - 2019-06-08
+### Added
+- `trigen-scripts` dev tool.
