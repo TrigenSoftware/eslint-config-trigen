@@ -33,9 +33,9 @@
     "eslint-plugin-react": "^7.10.0"
   },
   "devDependencies": {
-    "@trigen/scripts": "2",
-    "@trigen/scripts-plugin-eslint": "2",
-    "@trigen/scripts-preset-lib": "2",
+    "@trigen/scripts": "^3.5.3",
+    "@trigen/scripts-plugin-eslint": "^3.5.3",
+    "@trigen/scripts-preset-lib": "^3.5.3",
     "eslint": ">=4.0.0"
   },
   "files": [
