@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@trigen/scripts": "2",
-    "@trigen/scripts-plugin-eslint": "2",
+    "@trigen/scripts-plugin-eslint": "3",
     "@trigen/scripts-preset-lib": "2",
     "eslint": ">=4.0.0"
   },
