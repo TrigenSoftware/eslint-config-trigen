@@ -5,7 +5,7 @@
 [![Peer dependencies status][peer-deps]][peer-deps-url]
 [![Dependencies status][deps]][deps-url]
 [![Build status][build]][build-url]
-[![Greenkeeper badge][greenkeeper]][greenkeeper-url]
+[![Dependabot badge][dependabot]][dependabot-url]
 
 [npm]: https://img.shields.io/npm/v/eslint-config-trigen.svg
 [npm-url]: https://npmjs.com/package/eslint-config-trigen
@@ -22,8 +22,8 @@
 [build]: http://img.shields.io/travis/com/TrigenSoftware/eslint-config-trigen.svg
 [build-url]: https://travis-ci.com/TrigenSoftware/eslint-config-trigen
 
-[greenkeeper]: https://badges.greenkeeper.io/TrigenSoftware/eslint-config-trigen.svg
-[greenkeeper-url]: https://greenkeeper.io/
+[dependabot]: https://api.dependabot.com/badges/status?host=github&repo=TrigenSoftware/eslint-config-trigen
+[dependabot-url]: https://dependabot.com/
 
 Trigen's ESLint config.
 
