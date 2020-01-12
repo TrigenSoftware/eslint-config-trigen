@@ -150,7 +150,7 @@ module.exports = {
 		'react/jsx-no-comment-textnodes':             'error',
 		'react/jsx-no-duplicate-props':               'error',
 		'react/jsx-no-literals':                      'off',
-		'react/jsx-no-target-blank':                  'error',
+		'react/jsx-no-target-blank':                 ['error', { 'enforceDynamicLinks': 'always' }],
 		'react/jsx-no-undef':                         'error',
 		'react/jsx-curly-brace-presence':            ['error', 'never'],
 		'react/jsx-pascal-case':                      'error',
