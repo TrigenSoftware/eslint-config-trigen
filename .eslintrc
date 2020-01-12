@@ -1,9 +1,10 @@
 {
-	"extends": "trigen/base",
+	"extends": "./base.js",
 	"env": {
 		"node": true
 	},
 	"rules": {
+		"import/no-commonjs": "off",
 		"import/unambiguous": "off",
 		"no-magic-numbers": "off"
 	}
