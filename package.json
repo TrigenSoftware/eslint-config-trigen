@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trigen",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Trigen's ESLint config",
   "author": "dangreen",
   "license": "MIT",
@@ -36,7 +36,7 @@
     "@trigen/scripts": "3",
     "@trigen/scripts-plugin-eslint": "3",
     "@trigen/scripts-preset-lib": "3",
-    "eslint": ">=4.0.0"
+    "eslint": "^6.8.0"
   },
   "files": [
     "rules",

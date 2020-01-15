@@ -30,3 +30,7 @@ switch (testLet) {
 	default:
 		break;
 }
+
+for (const key in global) {
+	console.log(key);
+}

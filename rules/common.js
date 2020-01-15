@@ -86,6 +86,8 @@ module.exports = {
 			{ blankLine: 'never', prev: 'import', next: 'import' },
 			{ blankLine: 'always', prev: ['const', 'let'], next: '*' },
 			{ blankLine: 'never', prev: ['const', 'let'], next: ['const', 'let'] },
+			{ blankLine: 'always', prev: ['cjs-import'], next: '*' },
+			{ blankLine: 'never', prev: ['cjs-import'], next: ['cjs-import'] },
 			{ blankLine: 'always', prev: '*', next: 'block-like' }
 		],
 		'array-bracket-spacing':        ['error', 'never'],
