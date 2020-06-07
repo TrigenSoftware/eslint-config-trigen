@@ -35,3 +35,7 @@ check_validity "$(eslint valid.js)" "valid.js doesn't passed checking."
 check_invalidity "$(eslint invalid.js)" "valid.js doesn't passed checking."
 
 check_validity "$(eslint commonjs/valid.js)" "commonjs/valid.js doesn't passed checking."
+
+check_validity "$(eslint typescript/valid.ts)" "typescript/valid.ts doesn't passed checking."
+
+check_invalidity "$(eslint typescript/invalid.ts)" "typescript/invalid.ts doesn't passed checking."

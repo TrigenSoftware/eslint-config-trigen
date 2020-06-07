@@ -1,5 +1,5 @@
 /**
- * CommonJS config
+ * CommonJS override
  */
 
 module.exports = {

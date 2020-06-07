@@ -8,10 +8,10 @@ const TWICE = 2;
 const testConst = 2;
 let testLet = 3;
 
-if (testConst == TWICE) {
+if (testConst === TWICE) {
 	testLet = testConst;
 } else
-if (testConst == testLet) {
+if (testConst === testLet) {
 	testLet = testConst * TWICE;
 } else {
 	testLet = NOT_FOUND;
@@ -31,6 +31,6 @@ switch (testLet) {
 		break;
 }
 
-for (const key in global) {
-	console.log(key);
+for (const key in window) {
+	console.info(key);
 }

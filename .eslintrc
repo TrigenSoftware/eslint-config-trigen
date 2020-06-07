@@ -1,11 +1,12 @@
 {
-	"extends": "./base.js",
+	"extends": [
+		"./src/index",
+		"./src/commonjs"
+	],
 	"env": {
 		"node": true
 	},
 	"rules": {
-		"import/no-commonjs": "off",
-		"import/unambiguous": "off",
 		"no-magic-numbers": "off"
 	}
 }

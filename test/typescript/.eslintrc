@@ -2,7 +2,7 @@
 	"root": true,
 	"extends": [
 		"../../src/index",
-		"../../src/commonjs"
+		"../../src/typescript"
 	],
 	"env": {
 		"node": true

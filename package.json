@@ -25,23 +25,31 @@
     "eslintconfig"
   ],
   "peerDependencies": {
-    "eslint": ">=4.0.0"
+    "eslint": ">=7.0.0"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
     "babel-eslint": "^10.0.3",
     "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-jsdoc": "^27.0.4",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^4.0.4"
   },
   "devDependencies": {
-    "@trigen/scripts": "6",
-    "@trigen/scripts-plugin-eslint": "6",
-    "@trigen/scripts-preset-lib": "6",
-    "eslint": "^6.8.0"
+    "@trigen/scripts": "^6.0.0",
+    "@trigen/scripts-plugin-eslint": "^6.0.0",
+    "@trigen/scripts-preset-lib": "^6.0.0",
+    "eslint": "^7.0.0",
+    "typescript": "^3.9.5"
   },
   "files": [
     "rules",
-    "base.js",
     "index.js",
-    "commonjs.js"
+    "react.js",
+    "commonjs.js",
+    "jest.js",
+    "typescript.js",
+    "typescript-requiring-type-checking.js"
   ]
 }
