@@ -37,4 +37,35 @@ yarn add -D eslint-config-trigen
 
 ## Configure
 
-Add `'extends': 'trigen'` (to lint code with ReactJS) or `'extends': 'trigen/base'` to your `.eslintrc`.
+Create `.eslintrc` with next content:
+
+```json
+{
+    "extends": "trigen"
+}
+```
+
+### Additional configs
+
+There are additional configs for specific language features:
+
+| Config | Description |
+|--------|-------------|
+| trigen/react | Rules for ReactJS code. |
+| trigen/commonjs | Rules for CommonJS code. |
+| trigen/jest | Rules for Jest code. |
+| trigen/typescript | Rules for TypeScript code. |
+| trigen/typescript-requiring-type-checking | Rules for TypeScript code with type checking. |
+
+Example:
+
+```json
+{
+    "extends": [
+        "trigen",
+        "trigen/react",
+        "trigen/typescript",
+        "trigen/typescript-requiring-type-checking"
+    ]
+}
+```
