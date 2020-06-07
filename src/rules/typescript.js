@@ -112,26 +112,12 @@ module.exports = {
 				'allowDestructuring': true,
 				'allowedNames': ['self']
 			}],
-			// '@typescript-eslint/no-throw-literal': 'error',
-			// '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
-			// '@typescript-eslint/no-unnecessary-condition': ['error', {
-			// 	'allowConstantLoopConditions': true
-			// }],
-			// '@typescript-eslint/no-unnecessary-qualifier': 'error',
-			// '@typescript-eslint/no-unnecessary-type-arguments': 'error',
-			// '@typescript-eslint/no-unused-vars-experimental': 'error',
+			'@typescript-eslint/no-unused-vars-experimental': 'error',
 			'@typescript-eslint/prefer-for-of': 'error',
 			'@typescript-eslint/prefer-function-type': 'error',
-			// '@typescript-eslint/prefer-includes': 'error',
 			'@typescript-eslint/prefer-namespace-keyword': 'off',
-			// '@typescript-eslint/prefer-nullish-coalescing': 'error',
 			'@typescript-eslint/prefer-optional-chain': 'error',
-			// '@typescript-eslint/prefer-readonly': 'error',
-			// '@typescript-eslint/prefer-readonly-parameter-types': 'error',
-			// '@typescript-eslint/prefer-reduce-type-parameter': 'error',
-			// '@typescript-eslint/prefer-string-starts-ends-with': 'error',
 			'@typescript-eslint/prefer-ts-expect-error': 'error',
-			// '@typescript-eslint/switch-exhaustiveness-check': 'error',
 			'@typescript-eslint/type-annotation-spacing': 'error',
 			'@typescript-eslint/unified-signatures': 'error',
 
@@ -140,7 +126,6 @@ module.exports = {
 				'brace-style',
 				'comma-spacing',
 				'default-param-last',
-				// 'dot-notation',
 				'func-call-spacing',
 				'indent',
 				'init-declarations',
@@ -155,7 +140,6 @@ module.exports = {
 				'no-use-before-define',
 				'no-useless-constructor',
 				'quotes',
-				// 'require-await',
 				'semi',
 				'space-before-function-paren'
 			]),

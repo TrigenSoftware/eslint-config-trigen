@@ -20,7 +20,6 @@ module.exports = {
 			}],
 			'@typescript-eslint/no-unnecessary-qualifier': 'error',
 			'@typescript-eslint/no-unnecessary-type-arguments': 'error',
-			'@typescript-eslint/no-unused-vars-experimental': 'error',
 			'@typescript-eslint/prefer-includes': 'error',
 			'@typescript-eslint/prefer-nullish-coalescing': 'error',
 			'@typescript-eslint/prefer-readonly': 'error',
