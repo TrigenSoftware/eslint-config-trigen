@@ -87,6 +87,9 @@ module.exports = {
 				'selector': 'variable',
 				'format': ['camelCase', 'UPPER_CASE']
 			}, {
+				'selector': 'function',
+				'format': ['camelCase', 'PascalCase']
+			}, {
 				'selector': 'parameter',
 				'format': ['camelCase'],
 				'leadingUnderscore': 'allow'
