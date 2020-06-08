@@ -4,7 +4,8 @@
 
 module.exports = {
 	'plugins': [
-		'import'
+		'import',
+		'modules-newline'
 	],
 	'rules': {
 		// Import
@@ -43,6 +44,10 @@ module.exports = {
 			'allowObject': true
 		}],
 		'import/dynamic-import-chunkname': 'error',
+
+		// Named import newline
+		'modules-newline/import-declaration-newline': 'error',
+		'modules-newline/export-declaration-newline': 'error',
 
 		// Other
 		'arrow-body-style': ['error', 'as-needed'],
