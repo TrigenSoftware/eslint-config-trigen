@@ -3,19 +3,19 @@
  */
 
 module.exports = {
-	'plugins': [
+	plugins: [
 		'jsdoc'
 	],
-	'rules': {
+	rules: {
 		'jsdoc/check-property-names': ['warn', {
-			'enableFixer': true
+			enableFixer: true
 		}],
 		'jsdoc/require-hyphen-before-param-description': ['warn', 'always'],
 		'jsdoc/require-jsdoc': 'off'
 	},
-	'overrides': [{
-		'files': ['*.ts', '*.tsx'],
-		'rules': {
+	overrides: [{
+		files: ['*.ts', '*.tsx'],
+		rules: {
 			'jsdoc/no-types': 'warn'
 		}
 	}]

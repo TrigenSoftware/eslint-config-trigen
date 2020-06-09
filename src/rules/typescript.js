@@ -5,12 +5,12 @@
 const getExtensionRules = require('./getExtensionRules');
 
 module.exports = {
-	'overrides': [{
-		'files': ['*.ts', '*.tsx'],
-		'plugins': [
+	overrides: [{
+		files: ['*.ts', '*.tsx'],
+		plugins: [
 			'@typescript-eslint'
 		],
-		'rules': {
+		rules: {
 			// Rules
 			'@typescript-eslint/array-type': 'error',
 			'@typescript-eslint/await-thenable': 'off',
@@ -23,19 +23,19 @@ module.exports = {
 			'@typescript-eslint/consistent-type-definitions': 'error',
 			'@typescript-eslint/explicit-module-boundary-types': 'off',
 			'@typescript-eslint/member-delimiter-style': ['error', {
-				'multiline': {
-					'delimiter': 'semi',
-					'requireLast': true
+				multiline: {
+					delimiter: 'semi',
+					requireLast: true
 				},
-				'singleline': {
-					'delimiter': 'semi',
-					'requireLast': false
+				singleline: {
+					delimiter: 'semi',
+					requireLast: false
 				}
 			}],
 			'@typescript-eslint/member-ordering': ['error', {
-				'default': {
-					'order': 'as-written',
-					'memberTypes': [
+				default: {
+					order: 'as-written',
+					memberTypes: [
 						// Static methods
 						'public-static-method',
 						'protected-static-method',
@@ -81,25 +81,25 @@ module.exports = {
 			'@typescript-eslint/method-signature-style': ['error', 'method'],
 			'camelcase': 'off',
 			'@typescript-eslint/naming-convention': ['error', {
-				'selector': 'default',
-				'format': ['camelCase']
+				selector: 'default',
+				format: ['camelCase']
 			}, {
-				'selector': 'variable',
-				'format': ['camelCase', 'UPPER_CASE']
+				selector: 'variable',
+				format: ['camelCase', 'UPPER_CASE']
 			}, {
-				'selector': 'function',
-				'format': ['camelCase', 'PascalCase']
+				selector: 'function',
+				format: ['camelCase', 'PascalCase']
 			}, {
-				'selector': 'parameter',
-				'format': ['camelCase'],
-				'leadingUnderscore': 'allow'
+				selector: 'parameter',
+				format: ['camelCase'],
+				leadingUnderscore: 'allow'
 			}, {
-				'selector': 'typeLike',
-				'format': ['PascalCase']
+				selector: 'typeLike',
+				format: ['PascalCase']
 			}, {
-				'selector': 'interface',
-				'format': ['PascalCase'],
-				'prefix': ['I']
+				selector: 'interface',
+				format: ['PascalCase'],
+				prefix: ['I']
 			}],
 			// '@typescript-eslint/no-base-to-string': 'error',
 			'@typescript-eslint/no-dynamic-delete': 'error',
@@ -107,13 +107,13 @@ module.exports = {
 			'@typescript-eslint/no-extraneous-class': 'error',
 			'@typescript-eslint/no-invalid-void-type': 'error',
 			'@typescript-eslint/no-namespace': ['error', {
-				'allowDeclarations': true,
-				'allowDefinitionFiles': true
+				allowDeclarations: true,
+				allowDefinitionFiles: true
 			}],
 			'@typescript-eslint/no-require-imports': 'error',
 			'@typescript-eslint/no-this-alias': ['error', {
-				'allowDestructuring': true,
-				'allowedNames': ['self']
+				allowDestructuring: true,
+				allowedNames: ['self']
 			}],
 			'@typescript-eslint/no-unused-vars-experimental': 'error',
 			'@typescript-eslint/prefer-for-of': 'error',

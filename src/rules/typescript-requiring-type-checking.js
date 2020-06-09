@@ -5,18 +5,18 @@
 const getExtensionRules = require('./getExtensionRules');
 
 module.exports = {
-	'overrides': [{
-		'files': ['*.ts', '*.tsx'],
-		'plugins': [
+	overrides: [{
+		files: ['*.ts', '*.tsx'],
+		plugins: [
 			'@typescript-eslint'
 		],
-		'rules': {
+		rules: {
 			// Rules
 			'@typescript-eslint/no-base-to-string': 'error',
 			'@typescript-eslint/no-throw-literal': 'error',
 			'@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
 			'@typescript-eslint/no-unnecessary-condition': ['error', {
-				'allowConstantLoopConditions': true
+				allowConstantLoopConditions: true
 			}],
 			'@typescript-eslint/no-unnecessary-qualifier': 'error',
 			'@typescript-eslint/no-unnecessary-type-arguments': 'error',

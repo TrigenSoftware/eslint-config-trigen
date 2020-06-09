@@ -3,10 +3,10 @@
  */
 
 module.exports = {
-	'extends': [
+	extends: [
 		'plugin:@typescript-eslint/recommended'
 	].concat([
 		'./rules/typescript'
 	].map(require.resolve)),
-	'parser': '@typescript-eslint/parser'
+	parser: '@typescript-eslint/parser'
 };

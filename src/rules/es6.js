@@ -3,11 +3,11 @@
  */
 
 module.exports = {
-	'plugins': [
+	plugins: [
 		'import',
 		'modules-newline'
 	],
-	'rules': {
+	rules: {
 		// Import
 		// Static analysis
 		'import/no-absolute-path': 'error',
@@ -15,7 +15,7 @@ module.exports = {
 		'import/no-webpack-loader-syntax': 'error',
 		'import/no-self-import': 'error',
 		'import/no-useless-path-segments': ['error', {
-			'noUselessIndex': true
+			noUselessIndex: true
 		}],
 		// Helpful warnings
 		'import/export': 'error',
@@ -23,8 +23,8 @@ module.exports = {
 		// Module systems
 		'import/unambiguous': 'error',
 		'import/no-commonjs': ['error', {
-			'allowRequire': false,
-			'allowPrimitiveModules': false
+			allowRequire: false,
+			allowPrimitiveModules: false
 		}],
 		'import/no-amd': 'error',
 		// Style guide
@@ -36,12 +36,12 @@ module.exports = {
 		'import/newline-after-import': 'error',
 		'import/no-named-default': 'error',
 		'import/no-anonymous-default-export': ['error', {
-			'allowArray': true,
-			'allowArrowFunction': false,
-			'allowAnonymousClass': false,
-			'allowAnonymousFunction': false,
-			'allowLiteral': false,
-			'allowObject': true
+			allowArray: true,
+			allowArrowFunction: false,
+			allowAnonymousClass: false,
+			allowAnonymousFunction: false,
+			allowLiteral: false,
+			allowObject: true
 		}],
 		'import/dynamic-import-chunkname': 'error',
 
@@ -52,44 +52,44 @@ module.exports = {
 		// Other
 		'arrow-body-style': ['error', 'as-needed'],
 		'arrow-parens': ['error', 'as-needed', {
-			'requireForBlockBody': true
+			requireForBlockBody: true
 		}],
 		'arrow-spacing': 'error',
 		'generator-star-spacing': ['error', {
-			'before': true,
-			'after': false
+			before: true,
+			after: false
 		}],
 		'no-confusing-arrow': ['error', {
-			'allowParens': true
+			allowParens: true
 		}],
 		'no-duplicate-imports': ['error', {
-			'includeExports': true
+			includeExports: true
 		}],
 		'no-useless-computed-key': 'error',
 		'no-useless-constructor': 'error',
 		'no-useless-rename': 'error',
 		'no-var': 'error',
 		'object-shorthand': ['error', 'always', {
-			'avoidQuotes': true
+			avoidQuotes: true
 		}],
 		'prefer-arrow-callback': ['error', {
-			'allowNamedFunctions': true
+			allowNamedFunctions: true
 		}],
 		'prefer-const': ['error', {
-			'destructuring': 'all',
-			'ignoreReadBeforeAssign': false
+			destructuring: 'all',
+			ignoreReadBeforeAssign: false
 		}],
 		'prefer-destructuring': ['error', {
-			'VariableDeclarator': {
-				'array': true,
-				'object': true
+			VariableDeclarator: {
+				array: true,
+				object: true
 			},
-			'AssignmentExpression': {
-				'array': true,
-				'object': false
+			AssignmentExpression: {
+				array: true,
+				object: false
 			}
 		}, {
-			'enforceForRenamedProperties': false
+			enforceForRenamedProperties: false
 		}],
 		'prefer-numeric-literals': 'error',
 		'prefer-rest-params': 'error',

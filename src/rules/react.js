@@ -3,21 +3,21 @@
  */
 
 module.exports = {
-	'plugins': [
+	plugins: [
 		'react',
 		'react-hooks'
 	],
-	'settings': {
-		'react': {
-			'version': 'detect'
+	settings: {
+		react: {
+			version: 'detect'
 		}
 	},
-	'rules': {
+	rules: {
 		// React
 		'react/destructuring-assignment': 'error',
 		'react/function-component-definition': ['error', {
-			'namedComponents': 'function-declaration',
-			'unnamedComponents': 'arrow-function'
+			namedComponents: 'function-declaration',
+			unnamedComponents: 'arrow-function'
 		}],
 		'react/no-access-state-in-setstate': 'error',
 		'react/no-array-index-key': 'warn',
@@ -31,7 +31,7 @@ module.exports = {
 		'react/no-find-dom-node': 'error',
 		'react/no-is-mounted': 'error',
 		'react/no-multi-comp': ['error', {
-			'ignoreStateless': true
+			ignoreStateless: true
 		}],
 		'react/no-redundant-should-component-update': 'error',
 		'react/no-render-return-value': 'error',
@@ -71,25 +71,25 @@ module.exports = {
 		'react/jsx-indent-props': ['error', 'tab'],
 		'react/jsx-key': 'error',
 		'react/jsx-max-props-per-line': ['error', {
-			'maximum': 1
+			maximum: 1
 		}],
 		'react/jsx-no-bind': 'error',
 		'react/jsx-no-comment-textnodes': 'error',
 		'react/jsx-no-duplicate-props': 'error',
 		'react/jsx-no-script-url': 'error',
 		'react/jsx-no-target-blank': ['error', {
-			'enforceDynamicLinks': 'always'
+			enforceDynamicLinks: 'always'
 		}],
 		'react/jsx-no-undef': 'error',
 		'react/jsx-no-useless-fragment': 'error',
 		'react/jsx-one-expression-per-line': ['error', {
-			'allow': 'literal'
+			allow: 'literal'
 		}],
 		'react/jsx-pascal-case': 'error',
 		'react/jsx-tag-spacing': ['error', {
-			'closingSlash': 'never',
-			'beforeSelfClosing': 'never',
-			'afterOpening': 'never'
+			closingSlash: 'never',
+			beforeSelfClosing: 'never',
+			afterOpening: 'never'
 		}],
 		'react/jsx-uses-react': 'error',
 		'react/jsx-uses-vars': 'error',

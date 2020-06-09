@@ -3,13 +3,13 @@
  */
 
 module.exports = {
-	'plugins': [
+	plugins: [
 		'jest'
 	],
-	'env': {
+	env: {
 		'jest/globals': true
 	},
-	'rules': {
+	rules: {
 		'no-magic-numbers': 'off',
 		'import/order': 'off'
 	}

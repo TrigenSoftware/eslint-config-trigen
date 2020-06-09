@@ -3,16 +3,16 @@
  */
 
 module.exports = {
-	'rules': {
+	rules: {
 		// Possible Errors
 		'no-console': ['warn', {
-			'allow': ['warn', 'error', 'info']
+			allow: ['warn', 'error', 'info']
 		}],
 		'no-debugger': 'warn',
 		'no-extra-parens': ['error', 'all', {
-			'nestedBinaryExpressions': false,
-			'ignoreJSX': 'multi-line',
-			'enforceForSequenceExpressions': false
+			nestedBinaryExpressions: false,
+			ignoreJSX: 'multi-line',
+			enforceForSequenceExpressions: false
 		}],
 		'no-loss-of-precision': 'error',
 		'no-template-curly-in-string': 'error',
@@ -50,12 +50,12 @@ module.exports = {
 		'no-lone-blocks': 'error',
 		'no-loop-func': 'error',
 		'no-magic-numbers': ['error', {
-			'ignore': [-1, 0, 1, 2, 100],
-			'ignoreArrayIndexes': true
+			ignore: [-1, 0, 1, 2, 100],
+			ignoreArrayIndexes: true
 		}],
 		'no-multi-spaces': ['error', {
-			'exceptions': {
-				'Property': true
+			exceptions: {
+				Property: true
 			}
 		}],
 		'no-multi-str': 'error',
@@ -64,7 +64,7 @@ module.exports = {
 		'no-new-wrappers': 'error',
 		'no-octal-escape': 'error',
 		'no-param-reassign': ['error', {
-			'props': false
+			props: false
 		}],
 		'no-proto': 'error',
 		'no-return-assign': 'error',
@@ -82,7 +82,7 @@ module.exports = {
 		'radix': 'error',
 		'require-await': 'error',
 		'yoda': ['error', 'never', {
-			'exceptRange': true
+			exceptRange: true
 		}],
 
 		// Variables
@@ -92,10 +92,10 @@ module.exports = {
 		'no-restricted-globals': ['error', 'event'],
 		'no-undef-init': 'error',
 		'no-unused-vars': ['error', {
-			'ignoreRestSiblings': true
+			ignoreRestSiblings: true
 		}],
 		'no-use-before-define': ['error', {
-			'functions': false
+			functions: false
 		}],
 
 		// Stylistic Issues
@@ -114,59 +114,59 @@ module.exports = {
 		'func-call-spacing': 'error',
 		'func-names': 'error',
 		'func-style': ['error', 'declaration', {
-			'allowArrowFunctions': true
+			allowArrowFunctions: true
 		}],
 		'function-call-argument-newline': ['error', 'consistent'],
 		'function-paren-newline': ['error', 'consistent'],
 		'implicit-arrow-linebreak': ['error', 'beside'],
 		'indent': ['error', 'tab', {
-			'SwitchCase': 1
+			SwitchCase: 1
 		}],
 		'jsx-quotes': ['error', 'prefer-single'],
 		'key-spacing': ['error', {
-			'mode': 'strict'
+			mode: 'strict'
 		}],
 		'keyword-spacing': 'error',
 		'linebreak-style': 'error',
 		'lines-between-class-members': ['error', 'always'],
 		'max-len': ['error', {
-			'code': 140,
-			'tabWidth': 4,
-			'ignoreTrailingComments': true,
-			'ignoreUrls': true,
-			'ignoreStrings': true,
-			'ignoreTemplateLiterals': true,
-			'ignoreRegExpLiterals': true
+			code: 140,
+			tabWidth: 4,
+			ignoreTrailingComments: true,
+			ignoreUrls: true,
+			ignoreStrings: true,
+			ignoreTemplateLiterals: true,
+			ignoreRegExpLiterals: true
 		}],
 		'max-nested-callbacks': ['error', 4],
 		'max-params': ['error', 6],
 		'max-statements-per-line': 'error',
 		'new-cap': ['error', {
-			'capIsNew': false
+			capIsNew: false
 		}],
 		'new-parens': 'error',
 		'no-array-constructor': 'error',
 		'no-lonely-if': 'error',
 		'no-multi-assign': 'error',
 		'no-multiple-empty-lines': ['error', {
-			'max': 1
+			max: 1
 		}],
 		'no-new-object': 'error',
 		'no-trailing-spaces': 'error',
 		'no-unneeded-ternary': 'error',
 		'no-whitespace-before-property': 'error',
 		'object-curly-newline': ['error', {
-			'minProperties': 1
+			minProperties: 1
 		}],
 		'object-curly-spacing': ['error', 'always'],
 		'object-property-newline': ['error', {
-			'allowAllPropertiesOnSameLine': false
+			allowAllPropertiesOnSameLine: false
 		}],
 		'one-var': ['error', 'never'],
 		'one-var-declaration-per-line': ['error', 'initializations'],
 		'operator-assignment': ['error', 'always'],
 		'operator-linebreak': ['error', 'before', {
-			'overrides': {
+			overrides: {
 				'=': 'after'
 			}
 		}],
@@ -209,23 +209,23 @@ module.exports = {
 			}
 		],
 		'prefer-object-spread': 'error',
-		'quote-props': ['error', 'consistent'],
+		'quote-props': ['error', 'consistent-as-needed'],
 		'quotes': ['error', 'single', {
-			'avoidEscape': true,
-			'allowTemplateLiterals': true
+			avoidEscape: true,
+			allowTemplateLiterals: true
 		}],
 		'semi': 'error',
 		'semi-spacing': 'error',
 		'semi-style': 'error',
 		'space-before-blocks': 'error',
 		'space-before-function-paren': ['error', {
-			'anonymous': 'always',
-			'named': 'never',
-			'asyncArrow': 'always'
+			anonymous: 'always',
+			named: 'never',
+			asyncArrow: 'always'
 		}],
 		'space-in-parens': 'error',
 		'space-infix-ops': ['error', {
-			'int32Hint': true
+			int32Hint: true
 		}],
 		'space-unary-ops': 'error',
 		'spaced-comment': 'error',

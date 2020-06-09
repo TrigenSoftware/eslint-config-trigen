@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-	'rules': {
+	rules: {
 		'import/no-commonjs': 'off',
 		'import/unambiguous': 'off'
 	}

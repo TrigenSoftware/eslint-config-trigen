@@ -3,12 +3,12 @@
  */
 
 module.exports = {
-	'extends': [
+	extends: [
 		'./rules/react'
 	].map(require.resolve),
-	'parserOptions': {
-		'ecmaFeatures': {
-			'jsx': true
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true
 		}
 	}
 };
