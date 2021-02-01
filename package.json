@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.17.0"
   },
   "devDependencies": {
-    "@trigen/scripts": "6",
+    "@trigen/scripts": "7",
     "@trigen/scripts-plugin-eslint": "6",
     "@trigen/scripts-preset-lib": "6",
     "eslint": "^6.8.0"
